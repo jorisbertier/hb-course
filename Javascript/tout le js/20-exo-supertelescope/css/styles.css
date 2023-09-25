@@ -1,0 +1,13 @@
+html,body{
+    height:100%;
+}
+
+body{
+    margin:0;
+    background:black url(../img/fond.jpg) no-repeat;
+    background-size:100% 100%;
+}
+
+img{
+    position:absolute;
+}

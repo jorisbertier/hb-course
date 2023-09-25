@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.popup{
+    border:1px solid;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    width:80%;
+    display:none;
+}
+
+.popup:target{
+    display: block;
+}
+
+.popup h1{
+    background:red;
+    margin:0;
+    padding:10px;
+    color:white;
+}
+
+.popup p{
+    padding:10px;
+    margin:0;
+}
+
+.popup .close{
+    position: absolute;
+    right:10px;
+    top:10px;
+    font-size:1.4em;
+    color:white;
+    cursor: pointer;
+}
+
+/* boutons */
+
+a{
+    text-decoration: none;
+    background-color: rosybrown;
+    color:white;
+    padding:10px;
+    display: inline-block;
+}

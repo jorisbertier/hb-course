@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+
+    <form action="serveur.php" method="post" onsubmit="return verif(this)">
+        <h1>Contact</h1>
+        <div class="affichageErreurs"></div>
+        <input type="text" name="nom" placeholder="nom">
+        <input type="text" name="email" placeholder="e-mail" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+">
+        <textarea onkeyup="updTexte(this)" name="msg" placeholder="message" maxlength="10"></textarea>
+        <div class="info">10 caractères restants</div>
+        <input type="submit">
+    </form>
+
+</body>
+</html>

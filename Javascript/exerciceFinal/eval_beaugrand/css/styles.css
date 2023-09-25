@@ -1,0 +1,40 @@
+html,body{
+height:100%;
+}
+
+body{
+    margin:0;
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+#zone1{
+    width:50%;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#zoneTexte{
+    border:10px solid lime;
+    width:200px;
+    height:450px;
+    color:white;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 1.4em;
+}
+
+#zone2{
+    width:50%;
+    padding:20px;
+    background:royalblue;
+}
+
+#choixCouleurs img{
+    margin:10px;
+    cursor: pointer;
+}

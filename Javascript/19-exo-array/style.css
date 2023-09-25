@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+}

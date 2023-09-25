@@ -1,0 +1,45 @@
+body {
+    margin-top: 100px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+#heures {
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+#minutes {
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.bloc {
+    margin : 3px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    
+}
+
+#h4 {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#m1 {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

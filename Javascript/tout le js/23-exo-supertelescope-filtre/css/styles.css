@@ -1,0 +1,26 @@
+html,body{
+    height:100%;
+}
+
+body{
+    margin:0;
+    background:black url(../img/fond.jpg) no-repeat;
+    background-size:100% 100%;
+}
+
+img{
+    position:absolute;
+}
+
+header{
+    background:rgba(255,0,0,0.8);
+    text-align:center;
+    padding:10px;
+}
+
+header select{
+    height:30px;
+    background:none;
+    color:black;
+    border:1px solid black;
+}

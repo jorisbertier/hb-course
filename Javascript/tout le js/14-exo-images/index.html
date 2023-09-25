@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    
+    <!-- V1, placement d'écouteur en HTML, avec transmission de this -->
+    <!-- <img src="img/1.jpg" onmouseover="changerImg(this,'img/2.jpg')" onmouseout="changerImg(this,'img/1.jpg')" alt="image"> -->
+    <!-- <img src="img/3.jpg" onmouseover="changerImg(this,'img/4.jpg')" onmouseout="changerImg(this,'img/3.jpg')" alt="image"> -->
+
+    <!-- V2, placement d'écouteur en HTML, avec transmission de event -->
+    <!-- <img src="img/1.jpg" onmouseover="changerImg(event,'img/2.jpg')" onmouseout="changerImg(event,'img/1.jpg')" alt="image"> -->
+    <!-- <img src="img/3.jpg" onmouseover="changerImg(event,'img/4.jpg')" onmouseout="changerImg(event,'img/3.jpg')" alt="image"> -->
+
+    <!-- V3, placement d'écouteur en HTML, sans fonction -->
+    <!-- <img src="img/1.jpg" onmouseover="this.src='img/2.jpg'" onmouseout="this.src='img/1.jpg'" alt="image"> -->
+    <!-- <img src="img/3.jpg" onmouseover="this.src='img/4.jpg'" onmouseout="this.src='img/3.jpg'" alt="image"> -->
+
+    <!-- V4, placement d'écouteur en JS -->
+    <img class="survolable" src="img/1.jpg" data-imgalt="img/2.jpg" alt="paysage 1">
+    <img class="survolable" src="img/3.jpg" data-imgalt="img/4.jpg" alt="paysage 2">
+
+</body>
+</html>

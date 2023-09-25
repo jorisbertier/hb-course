@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: black url(./img/fond.jpg);
+    background-size: 100% 100%;
+}
+
+header {
+    background: red;
+    text-align: center;
+}
+img {
+    position: absolute;
+}
+
+header select {
+    height: 30px;
+    background: none;
+    color: black;
+    border: 1px solid black;
+}
+
+header select option {
+    background: red;
+}

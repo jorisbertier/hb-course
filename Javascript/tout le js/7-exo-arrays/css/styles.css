@@ -1,0 +1,19 @@
+body{
+    display:flex;
+    background:lightgray;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.voiture{
+    background:white;
+    width:200px;
+    height:150px;
+    border-radius:15px;
+    margin:10px;
+    padding:10px;
+}
+
+h1{
+    width:100%;
+}

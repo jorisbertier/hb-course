@@ -1,0 +1,25 @@
+.v {
+    background-color: grey;
+    width: 250px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 10px 5px 5px black;
+}
+.voit {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.yo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tt {
+    width: 100vw;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}

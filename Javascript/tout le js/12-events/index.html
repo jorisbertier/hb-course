@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+
+    <!-- v1 - placement d'écouteur d'évènement en HTML, avec passage de this -->
+    <h1 onclick="clic(this,'red')">Bienvenue 1</h1>
+
+    <!-- v2 - placement d'écouteur d'évènement en HTML, avec passage d'event -->
+    <h1 onclick="clicE(event,'blue')" class="bt2">Bienvenue 2</h1>
+
+    <!-- v3 - placement d'écouteur en JS -->
+    <h2>Bienvenue 3</h2>
+
+</body>
+</html>

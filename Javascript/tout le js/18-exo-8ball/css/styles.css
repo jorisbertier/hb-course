@@ -1,0 +1,27 @@
+html,body{
+    height:100%;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+}
+
+#balle{
+    width:400px;
+    height:400px;
+    background:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius:50%;
+    color:white;
+}
+
+#balle input{
+ width:80%;
+ height:30px;
+}

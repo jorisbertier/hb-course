@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+
+    <!-- v1 -->
+    <!-- <a href="#" onclick="afficherPopup('popup1')">Pop-up 1</a>
+    <a href="#" onclick="afficherPopup('popup2')">Pop-up 2</a> -->
+    
+    <!-- V2 -->
+    <!-- <a href="#">Pop-up 1</a> -->
+    <!-- <a href="#">Pop-up 2</a> -->
+
+    <!-- v3 -->
+    <a href="#popup1">Pop-up 1</a>
+    <a href="#popup2">Pop-up 2</a>
+    
+    <section class="popup" id="popup1">
+        <span class="close" onclick="fermerPopup(this)">X</span>
+        <h1>Popup 1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur id harum nam ratione odio et nemo. Accusamus nemo quidem earum maxime non sunt aut asperiores, laboriosam animi odio tenetur officiis.</p>
+    </section>
+
+    <section class="popup" id="popup2">
+        <span class="close" onclick="fermerPopup(this)">X</span>
+        <h1>Popup 2</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur id harum nam ratione odio et nemo. Accusamus nemo quidem earum maxime non sunt aut asperiores, laboriosam animi odio tenetur officiis.</p>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    max-width: 100%;
+    transition: 0.5s ease-in-out;
+    
+}
